@@ -1,0 +1,127 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-family: 'Abel', sans-serif;
+    background-color: #5681a4;
+}
+
+@media (max-width: 1050px) {
+    body {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+   
+.container {
+    padding: 15px;
+    margin-bottom: 10px;
+    min-width: 400px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#user-info {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+#user-info label {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.block-input input {
+    padding: 4px;
+    margin-top: 4px;    
+    display:block;
+    height: 20px;    
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #F96F35;    
+}
+
+input:focus, button:focus {
+    outline: 0;
+}
+
+.radio-input {
+    margin-top: 10px;
+}
+
+.radio-input label {
+    margin-right: 10px;
+    margin-left: 4px;
+}
+
+.submit-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    float: right;
+    color: #303030;    
+    font-size: 16px;
+    background-color: lightgrey;
+    border: none;    
+    border-radius: 2px;    
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    color: #f4f5f6;
+    background-color: grey;    
+}
+
+.green {
+    border: 2px solid #41BB8A !important;
+}
+
+.status-text {
+    margin: 4px;    
+    position: absolute;
+    clear: both;    
+    font-size: 14px;
+    font-style: oblique;
+}
+
+#result {
+    position: relative;
+    float: right;    
+    font-size: 14px;
+}
+
+#outputTable {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+#outputTable td {
+    padding: 4px;
+}
+
+#outputTable th {
+    padding: 4px;
+    font-size: 18px;
+}
+
+#outputTable > tbody tr:nth-child(odd) {
+    background-color: #d8e7f3;
+}
+
